@@ -1,4 +1,4 @@
-# Cataract-Scan-Py
+# Cataract-Scanner-Py
 
 A simple Python script to detect cataract in eye images by highlighting the pupil.
 
