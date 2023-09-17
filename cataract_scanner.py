@@ -1,7 +1,6 @@
 import cv2
 import numpy as np
-
-test_file = "images/sample.jpg"
+import sys
 
 
 def read_image(filepath: str):
@@ -113,4 +112,9 @@ def detect_cataract(filepath: str):
 
 
 if __name__ == "__main__":
-    detect_cataract(test_file)
+    if len(sys.argv) > 1:
+        image_path = sys.argv[1]
+        detect_cataract(image_path)
+    else:
+        print("Please provide a path to an image.")
+
