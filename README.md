@@ -33,10 +33,6 @@ To use the script, run the following command:
 python detect_cataract.py path_to_image.jpg
 ```
 
-## Output
-
-This will open a window displaying the image with the pupil circled, providing an indication of the presence of cataract.
-
 ## Dependencies
 
 The script depends on the following libraries:
